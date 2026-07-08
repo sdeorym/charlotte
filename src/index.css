@@ -8,6 +8,33 @@
   --blanco: #FFFFFF;
  
   /* Fuentes */
-  --font-titulo: 'Poppins', sans-serif;
-  --font-texto: 'Roboto', sans-serif;
+  --titulo: 'Poppins', sans-serif;
+  --texto: 'Roboto', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: var(--gris);
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--titulo);
+}
+p {
+  font-family: var(--texto);
+  font-size: 16px;
+}
+h1 {
+  font-size: 40px;
+  color: var(--blanco);
+}
+h2 {
+  font-size: 28px;
+  color: var(---titulo);
+}
+h3 {
+  font-size: 22px;
 }
