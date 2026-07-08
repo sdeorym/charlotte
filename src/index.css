@@ -1,0 +1,13 @@
+:root {
+  /* Colores */
+  --coral: #ED3744;
+  --dorado: #D4843F;
+  --titulo: #1A1A1A;
+  --texto: #3D4A5C;
+  --gris: #EFF0F2;
+  --blanco: #FFFFFF;
+ 
+  /* Fuentes */
+  --font-titulo: 'Poppins', sans-serif;
+  --font-texto: 'Roboto', sans-serif;
+}
