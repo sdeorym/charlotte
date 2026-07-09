@@ -1,3 +1,4 @@
+import Acordeon from '../../DRY/Acordeon.jsx'
 import './Servicios.css'
 
 
@@ -120,6 +121,7 @@ function Servicios() {
           y Corresponsable en Diseño Urbano y Arquitectónico.</p> 
         <p>Ofrecemos todos los servicios exigidos por las Alcaldías de la Ciudad de México y los trámites exigidos por los municipios del Estado de México, Querétaro y Morelos.</p> 
         <p>Garantizamos un proceso eficiente y profesional.</p>
+        <Acordeon servir = {servicio} />
       </section>
     </>
   )

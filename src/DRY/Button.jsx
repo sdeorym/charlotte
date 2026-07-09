@@ -1,7 +1,7 @@
 function Button({content}) {
   return (
     <>
-        <button>Enviar</button>
+        <button>{content}</button>
     </>
   )
 }

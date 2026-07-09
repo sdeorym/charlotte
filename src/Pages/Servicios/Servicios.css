@@ -4,13 +4,21 @@
     flex-direction: column;
     justify-content: center;
     margin: 50px auto;
-    gap: 10px;
-}
-/*.servicios h2 {
-    align-items: center;
+    gap: .75rem;
 }
 .servicios p {
-    text-align: justify;
-}*/
+    color: var(--parrafo);
+}
+.listaServ {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: .75rem;
+    justify-content: center;
+}
 
-
+.listaServ button {
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+}

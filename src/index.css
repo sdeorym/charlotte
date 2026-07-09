@@ -1,6 +1,6 @@
 :root {
   /* Colores */
-  --coral: #ED3744;
+  --coral: #D42836 ;
   --dorado: #D4843F;
   --membrete: #1A1A1A;
   --parrafo: #3D4A5C;
@@ -81,7 +81,12 @@ button {
   font-size: 1.1rem;
   padding: .5rem 1rem;
   border-radius: 12px;
+  border: none;
 }
 button:hover {
   transform: scale(1.2);
+}
+form button {
+  margin: 0 auto;
+  display: block;
 }
