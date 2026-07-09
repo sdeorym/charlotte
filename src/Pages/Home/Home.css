@@ -11,7 +11,7 @@
   height: auto;
 }
 .home p {
-    color: var(--texto);
+    color: var(--parrafo);
 }
 .home-text {
     margin: 10px;

@@ -1,0 +1,16 @@
+.servicios {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 50px auto;
+    gap: 10px;
+}
+/*.servicios h2 {
+    align-items: center;
+}
+.servicios p {
+    text-align: justify;
+}*/
+
+

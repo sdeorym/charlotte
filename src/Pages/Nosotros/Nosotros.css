@@ -12,7 +12,7 @@
   height: auto;
 }
 .nos p {
-    color: var(--texto);
+    color: var(--parrafo);
 }
 .nos-text {
     margin: 10px;
