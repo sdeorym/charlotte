@@ -38,12 +38,13 @@ function Contacto() {
       "rows": 10
     }
   ]
+  const selectivo = ["Información general", "Presupuesto", "Estado de un trámite", "Solicitud de servicios"]
 
   return (
     <>
       <section className="contacto">
         <h2>Formulario de contacto</h2>
-        <Formulario formLabels={formLabels}/>
+        <Formulario formLabels={formLabels} selectivo = {selectivo}/>
       </section>
     </>
   )

@@ -1,8 +1,11 @@
 import Button from './Button.jsx'
-function Formulario({formLabels}) {
+import Select from './Select.jsx'
+
+function Formulario({formLabels, selectivo}) {
   return (
     <>
         <form>
+          {selectivo && <Select selectivo={selectivo} />}
           {formLabels.map((info) =>
             <div key={info.id}>
               <div className="formField">

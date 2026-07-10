@@ -24,12 +24,13 @@ nav a {
   color: var(--blanco);
   text-decoration: none;
 }
-nav a:visited {
-  color: var(--blanco);
-}
 nav a:hover {
   transform: scale(1.5);
   text-decoration: none;
+}
+.activeLink {
+  color: var(--membrete);
+  text-decoration: underline;
 }
 .logo {
   display: flex;

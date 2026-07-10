@@ -1,7 +1,7 @@
-function Button({content}) {
+function Button({content, isOpen, onClick}) {
   return (
     <>
-        <button>{content}</button>
+        <button onClick={onClick}>{content}</button>
     </>
   )
 }
