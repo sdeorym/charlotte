@@ -1,12 +1,17 @@
 import './App.css'
+import Header from './DRY/Header.jsx'
+import Footer from './DRY/Footer.jsx'
+
+import { Outlet } from 'react-router-dom'
 
 function App() {
   return (
     <>
-      <p>Ola ke ase, certifica obras o ke ase</p>
+      <Header />
+      <Outlet />
+      <Footer />
     </>
   )
-
 }
 
 export default App

@@ -1,0 +1,19 @@
+#error {
+    width: 100%;
+    padding: 16px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    margin: 100px 0;
+}
+#error a {
+    color: var(--coral);
+}
+
+#error p, #error a {
+    font-family: var(--titulo);
+    font-size: 32px;
+    font-weight: 700;
+}
