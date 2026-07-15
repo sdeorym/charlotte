@@ -11,7 +11,14 @@
   --titulo: 'Poppins', sans-serif;
   --texto: 'Roboto', sans-serif;
 }
-
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+main {
+  flex: 1;
+}
 * {
   margin: 0;
   padding: 0;
@@ -20,7 +27,7 @@
 body {
   background-color: var(--gris);
 }
-h1, h2, h3, h4, h5, h6 {
+h1, h2 {
   font-family: var(--titulo);
 }
 p {
@@ -28,21 +35,18 @@ p {
   font-size: 16px;
 }
 h1 {
-  font-size: 40px;
+  font-size: 22px;
   color: var(--blanco);
 }
 h2 {
-  font-size: 28px;
+  font-size: 19px;
   color: var(---membrete);
 }
-h3 {
-  font-size: 22px;
-}
 form {
-    font-family: var(--texto);
-    width: 100%;
-    max-width: 600px;
-    align-self: center;
+  font-family: var(--texto);
+  width: 100%;
+  max-width: 300px;
+  align-self: center;
 }
 .formField {
   display: flex;
@@ -59,20 +63,20 @@ form {
   text-align: left;
 }
 .formField input, .formField textarea {
-    text-align: left;
-    padding-left: 2.5%;
-    border: 1px solid;
-    border-color: var(--membrete);
-    border-radius: 2px;
-    font-family: var(--texto);
-    color: var(--membrete);
+  text-align: left;
+  padding-left: 2.5%;
+  border: 1px solid;
+  border-color: var(--membrete);
+  border-radius: 2px;
+  font-family: var(--texto);
+  color: var(--membrete);
 }
 .formField textarea {
-    height: 250px;
-    padding-top: 0.5rem;
+  height: 250px;
+  padding-top: 0.5rem;
 }
 .formField input {
-    height: 2rem;
+  height: 2rem;
 }
 button {
   background-color: var(--coral);
@@ -98,11 +102,26 @@ form button {
   background-color: var(--blanco);
   text-align: left;
   padding-left: 2.5%;
-  width: 60%;
+  width: 100%;
   margin: 0 auto;
+  border-radius: 2px;
 }
 #labelSelect {
   width: 72.5%;
   text-align: center;
-  
+}
+
+@media (min-width: 769px) {
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 28px;
+  }
+  form {
+    max-width: 600px;
+  }
+  .selector {
+    width: 60%;
+  }
 }

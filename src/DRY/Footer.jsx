@@ -6,7 +6,7 @@ function Footer() {
     <>
         <footer>
             <Navbar />
-            <span>Visítenos en facebook: <a href="https://www.facebook.com/especialidad.enconstruccion"><img src={facebook} alt="Icono facebook" /></a></span>
+            <span className="facebook">Visítenos en facebook: <a href="https://www.facebook.com/especialidad.enconstruccion"><img src={facebook} alt="Icono facebook" /></a></span>
             <div className="copyright">                
                 <span>© 2026 Cumplimiento Normativo</span>
                 <span>Desarrollo web: <a href="https://lpgconsulting.fr/">Le pèlerin gris</a></span>

@@ -1,11 +1,9 @@
 .servicios {
-    width: 60%;
-    min-height: 80vh;
+    width: 80%;    
+    margin: 30px auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 50px auto;
-    gap: .75rem;
 }
 .servicios p {
     color: var(--parrafo);
@@ -19,19 +17,19 @@
 }
 .listaServ button {
     display: block;
-    width: 60%;
+    width: 100%;
     margin: 0 auto;
 }
 .canvas {
-    width: 55%;
+    width: 90%;
     margin: 0 auto;
     overflow: hidden;
-    width: 50%;
     margin: 0 auto;
     overflow: hidden;
     background-color: var(--blanco);
     padding: 1rem 1.5rem;
     border: 1px solid var(--coral);
+    border-radius: 2px;
 }
 .canvas li::marker {
     color: var(--coral);
@@ -82,3 +80,18 @@
         from { opacity: 1; transform: translateY(5%);}
         to { opacity: 0; transform: translateY(-15%); }
     }
+
+@media (min-width: 769px) {
+    .servicios {
+        width: 60%;
+        min-height: 80vh;
+        margin: 50px auto;
+        gap: .75rem;
+    }
+    .listaServ button {
+        width: 60%;
+    }
+    .canvas {
+        width: 55%;
+    }
+}
